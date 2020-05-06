@@ -1,0 +1,27 @@
+{
+  "name": "coindex",
+  "version": "1.0.0",
+  "description": "CLI for tracking cryptocurrency prices.",
+  "main": "index.js",
+  "bin": "./bin/coindex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdesselle-portfolio-projects/Coindex-CLI.git"
+  },
+  "author": "Brandon Desselle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bdesselle-portfolio-projects/Coindex-CLI/issues"
+  },
+  "homepage": "https://github.com/bdesselle-portfolio-projects/Coindex-CLI#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.1.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.1.0"
+  }
+}
